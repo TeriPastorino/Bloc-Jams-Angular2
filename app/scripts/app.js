@@ -12,9 +12,16 @@
       templateUrl: '/templates/landing.html'
     })
     
+    /*templateURL loads a partial */
+    
     .state('album', {
       url: '/album',
       templateUrl:'/templates/album.html'
+    })
+    
+    .state('collection', {
+      url: '/collection',
+      templateUrl: '/templates/album.html'
     });
   }
 
